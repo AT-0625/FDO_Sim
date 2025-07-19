@@ -10,7 +10,7 @@
 - Parameter estimation from real-world data using SciPy's `curve_fit`  
 - Visualizes dynamic response, amplitude response, and phase lag  
 - User-driven inputs for physical parameters and datasets  
-- Save results and plots to CSV files for later use
+- Save data tables as `.csv` files and plots as `.png` or `.pdf` files
 
 ---
 
