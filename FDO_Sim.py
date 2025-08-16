@@ -829,7 +829,7 @@ while True:       # This variable figures whether the loop about to begin is fre
           axis.set_xlabel(xll[index])
           axis.set_ylabel(yll[index])
           if lbl[index]!='':
-            axis.legend(True)
+            axis.legend()
           axis.grid(True)
 
         # Format layout, display the combined subplot figure
@@ -870,7 +870,7 @@ while True:       # This variable figures whether the loop about to begin is fre
             axis.set_xlabel(xll[index])
             axis.set_ylabel(yll[index])
             if lbl[index]!='':
-              axis.legend(True)
+              axis.legend()
             axis.grid(True)
           showsave(1)          # Save the full combined figure and close
 
