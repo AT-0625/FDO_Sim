@@ -847,7 +847,7 @@ while True:       # This variable figures whether the loop about to begin is fre
           for k in range(3):
             if lbl[k]!='':
               plt.plot(t,yplot[k],label=lbl[k],color='black',linestyle='-')
-              plt.legend(True)
+              plt.legend()
             else:
               plt.plot(t,yplot[k],color='black',linestyle='-')
 
@@ -990,7 +990,7 @@ while True:       # This variable figures whether the loop about to begin is fre
           if hzx in ['y','Y','yes','YES']:
             if lblcheck==1:
               plt.plot(frange,A,label=label,color='black',linestyle='-')
-              plt.legend(True)
+              plt.legend()
             else:
               plt.plot(frange,A,color='black',linestyle='-')
 
@@ -998,7 +998,7 @@ while True:       # This variable figures whether the loop about to begin is fre
           else:
             if lblcheck==1:
               plt.plot(wrange,A,label=label,color='black',linestyle='-')
-              plt.legend(True)
+              plt.legend()
             else:
               plt.plot(wrange,A,color='black',linestyle='-')
 
@@ -1013,14 +1013,14 @@ while True:       # This variable figures whether the loop about to begin is fre
           if hzx in ['y','Y','yes','YES']:
             if lblcheck==1:
               plt.plot(frange,plag,label=label,color='black',linestyle='-')
-              plt.legend(True)
+              plt.legend()
             else:
               plt.plot(frange,plag,color='black',linestyle='-')
 
           else:
             if lblcheck==1:
               plt.plot(wrange,plag,label=label,color='black',linestyle='-')
-              plt.legend(True)
+              plt.legend()
             else:
               plt.plot(wrange,plag,color='black',linestyle='-')
 
